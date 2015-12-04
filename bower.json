@@ -1,0 +1,31 @@
+{
+  "name": "your-app",
+  "version": "0.0.1",
+  "main": "public/app.js",
+  "dependencies": {
+    "backbone": "~1.2.3",
+    "Backbone-Mediator": "latest",
+    "lodash": "~3.10.1",
+    "jquery": "~2.1.4",
+    "bourbon": "~4.2.6",
+    "neat": "~1.7.2"
+  },
+  "overrides": {
+    "jquery": {
+      "main": "dist/jquery.js"
+    },
+    "backbone": {
+      "dependencies": {
+        "lodash": "~3.10.1",
+        "jquery": "~2.1.4"
+      },
+      "main": "backbone.js"
+    },
+    "Backbone-Mediator": {
+      "dependencies": {
+        "backbone": "~1.2.3"
+      },
+      "main": "backbone-mediator.js"
+    }
+  }
+}
