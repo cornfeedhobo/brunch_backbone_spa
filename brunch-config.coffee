@@ -2,9 +2,6 @@ exports.config =
 
   framework: 'backbone'
 
-  conventions:
-    assets: /^app[\\/]public[\\/]/
-
   modules:
     definitions: false
     wrappers: false
