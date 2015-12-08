@@ -13,6 +13,7 @@
   "dependencies": {
     "auto-reload-brunch": ">= 1.0 < 1.9",
     "clean-css-brunch": ">= 1.0 < 1.9",
+    "coffee-script-brunch": "^1.8.3",
     "css-brunch": ">= 1.0 < 1.9",
     "handlebars-brunch": "^1.10.1",
     "javascript-brunch": ">= 1.0 < 1.9",
