@@ -8,7 +8,9 @@
     "lodash": "~3.10.1",
     "jquery": "~2.1.4",
     "bourbon": "~4.2.6",
-    "neat": "~1.7.2"
+    "neat": "~1.7.2",
+    "normalize-css": "normalize.css#~3.0.3",
+    "bitters": "~1.1.0"
   },
   "overrides": {
     "jquery": {
@@ -26,6 +28,9 @@
         "backbone": "~1.2.3"
       },
       "main": "backbone-mediator.js"
+    },
+    "bitters": {
+      "main": "app/assets/stylesheets/_base.scss"
     }
   }
 }

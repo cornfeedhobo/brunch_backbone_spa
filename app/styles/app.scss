@@ -1,12 +1,47 @@
+@import "settings";
 @import "bourbon";
+@import "grid-settings";
+@import "base";
 @import "neat";
 
-body {
-  div#white-wrap {
-    @include outer-container();
 
-    div#index-view {
-      color: red;
+h1 {
+  font-size: modular-scale(5);
+}
+
+h3 {
+  font-size: modular-scale(3);
+}
+
+h5 {
+  font-size: modular-scale(1.2);
+}
+
+body {
+  div#wrap {
+    height: 100%;
+    width: 100%;
+
+    header {
+      @include outer-container();
+      text-align: center;
+      padding-bottom: 1em;
+    }
+
+    section {
+      @include outer-container();
+      min-height: modular-scale(10);
+
+      div.content {
+        @include span-columns(4);
+        @include shift(4);
+        text-align: center;
+      }
+    }
+
+    footer {
+      @include outer-container();
+      text-align: center;
     }
   }
 }
